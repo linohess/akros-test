@@ -4,7 +4,7 @@ function ShoppingForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-   
+    navigate("/home")
   };
 
   return (
